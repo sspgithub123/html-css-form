@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = " utf-8">
+        <meta name = "viewport" content = " width = device-width">
+        <title>My Mobile Form</title>
+        <link rel = "stylesheet" href = "../css/MobileForms.css">
+    </head>
+    <body>
+        <form>
+            <header class = " headerContainer"><h1>HTML5 Form Input Fields</h1></header>
+            <div>
+                <label for = "text" >Enter your Name</label>
+                <input type = "text" id = "text" name = "text">
+                <error-ouptut class = "text-error" for = "text"></error-output>
+            </div>
+            <div>
+                <label for = "pwd" >Enter Password</label>
+                <input type = "password" id = "pwd" name = "pwd">
+                <error-output class="pass-error" for="pwd"></error-output>
+            </div>
+            <div>
+                <label for = "email" >Enter your email</label>
+                <input type = "email" id = "email" name = "email">
+                <error-output class="email-error" for="email"></error-output>
+            </div>
+            <div>
+                <label for = "url" >Enter the url</label>
+                <input type = "url" id = "url" name = "url"> 
+            </div>
+            <div>
+                <label for = "number" >Enter your number</label>
+                <input type = "number" id = "number" name = "number">
+            </div>
+            <div>
+                <label for = "tel" >Enter your tel no</label>
+                <input type = "tel" id = "tel" name = "tel">
+                <error-output class="tel-error" for="tel"></error-output>
+            </div>
+            <div>
+                <label for = "search" >Enter the item to search</label>
+                <input type = "search" id = "search" name = "search">
+            </div>
+            <div class = "nativeDateTimePicker">
+                <label for = "party" >choose a date and time</label>
+                <input type = "password" id = "party" name = "bday">
+                <span class = "validity"></span>
+            </div>
+            <div>
+                <label for = "salary" >choose your salary</label>
+                <input type = "range" id = "salary" name = "salary"
+                    min = "300000" max = "500000" step = "100" value = "400000">
+                <output class = "salary-output" for = "salary">40000</output>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+        <script src = " ../js/MobileForms.js"></script>      
+    </body>
+</html>
+
+        
+        
